@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author yiqru
  * @date 2021/7/5 4:18 下午
  */
-public class containsDuplicate {
+public class ContainsDuplicate {
     /**
      * <p>
      * 217.给定一个整数数组，判断是否存在重复元素。

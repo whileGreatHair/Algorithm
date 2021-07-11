@@ -4,7 +4,7 @@ package LeetCode._0121_BestTimeToBuyAndSellStock;
  * @author yiqru
  * @date 2021/7/10 6:08 下午
  */
-public class Solution {
+public class BestTimeToBuyAndSellStock {
 
     //双重遍历
     public static int maxProfit(int[] prices) {

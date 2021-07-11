@@ -4,13 +4,18 @@
     <option name="SPLITTER_PROPORTION" value="0.6202673" />
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="46c2c091-f714-410f-996b-97fe81f6b065" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/_0121_BestTimeToBuyAndSellStock/Solution.java" afterDir="false" />
+    <list default="true" id="46c2c091-f714-410f-996b-97fe81f6b065" name="Default Changelist" comment="两个数组的交集和股票最大利润问题。">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/_0118_PascalsTriangle/PascalsTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/_0283_MoveZeroes/MoveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/_0566_ReshapeTheMatrix/ReshapeTheMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0350_IntersectionOfTwoArraysII/IntersectionOfTwoArraysII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/_0350_IntersectionOfTwoArraysII/IntersectionOfTwoArraysII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0121_BestTimeToBuyAndSellStock/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/_0121_BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0217_ContainsDuplicate/containsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/_0217_ContainsDuplicate/ContainsDuplicate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +40,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/LeetCode/_0191_NumberOf1Bits/NumberOf1Bits.java" root0="SKIP_INSPECTION" />
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -48,7 +50,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1q9IJ1Bzbp3I3Kbhhr4V752EYut" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,18 +73,23 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode._0509_Fibonacci.Fibonacci" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="LeetCode._0283_MoveZeroes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PascalsTriangle">
+    <configuration name="PascalsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode._0118_PascalsTriangle.PascalsTriangle" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode._0509_Fibonacci.*" />
+          <option name="PATTERN" value="LeetCode._0118_PascalsTriangle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionOfTwoArraysII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode._0350_IntersectionOfTwoArraysII.IntersectionOfTwoArraysII" />
+    <configuration name="ReshapeTheMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode._0566_ReshapeTheMatrix.ReshapeTheMatrix" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode._0350_IntersectionOfTwoArraysII.*" />
+          <option name="PATTERN" value="LeetCode._0566_ReshapeTheMatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,65 +110,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode._0053_MaximumSubarray.MaxSubArray" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode._0053_MaximumSubarray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode._0121_BestTimeToBuyAndSellStock.Solution" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode._0121_BestTimeToBuyAndSellStock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Fibonacci.Solution" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode._0509_Fibonacci.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.IntersectionOfTwoArraysII" />
-        <item itemvalue="Application.MaxSubArray" />
-        <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.PascalsTriangle" />
+        <item itemvalue="Application.ReshapeTheMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -181,8 +146,17 @@
       <workItem from="1625468689392" duration="1070000" />
       <workItem from="1625469922097" duration="1931000" />
       <workItem from="1625551654873" duration="6636000" />
-      <workItem from="1625562553302" duration="8702000" />
+      <workItem from="1625562553302" duration="9521000" />
+      <workItem from="1625969203365" duration="5711000" />
     </task>
+    <task id="LOCAL-00001" summary="两个数组的交集和股票最大利润问题。">
+      <created>1625914344450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625914344450</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,5 +172,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="两个数组的交集和股票最大利润问题。" />
+    <option name="LAST_COMMIT_MESSAGE" value="两个数组的交集和股票最大利润问题。" />
   </component>
 </project>
