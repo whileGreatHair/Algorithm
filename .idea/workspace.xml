@@ -8,14 +8,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46c2c091-f714-410f-996b-97fe81f6b065" name="Default Changelist" comment="两个数组的交集和股票最大利润问题。">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/_0118_PascalsTriangle/PascalsTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/_0283_MoveZeroes/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/_0566_ReshapeTheMatrix/ReshapeTheMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="46c2c091-f714-410f-996b-97fe81f6b065" name="Default Changelist" comment="重塑矩阵，杨辉三角">
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/AddTwoNumbers_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/MaximumSubarray_53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/MergeSortedArray_88.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/TwoSum_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0121_BestTimeToBuyAndSellStock/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/_0121_BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0217_ContainsDuplicate/containsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/_0217_ContainsDuplicate/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0001_TwoSum/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/_0001_TwoSum/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0002_AddTwoNumbers/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/_0002_AddTwoNumbers/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0002_AddTwoNumbers/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/common/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0053_MaximumSubarray/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/_0053_MaximumSubarray/MaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0088_MergeSortedArray/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/_0088_MergeSortedArray/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0118_PascalsTriangle/PascalsTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/_0118_PascalsTriangle/PascalsTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0191_NumberOf1Bits/NumberOf1Bits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/_0191_NumberOf1Bits/NumberOf1Bits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0217_ContainsDuplicate/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/_0217_ContainsDuplicate/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0350_IntersectionOfTwoArraysII/IntersectionOfTwoArraysII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/_0350_IntersectionOfTwoArraysII/IntersectionOfTwoArraysII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0456_Pattern123/Pattern132.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/_0456_Pattern123/Pattern132.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/_0509_Fibonacci/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/_0509_Fibonacci/Fibonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +68,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -69,11 +80,13 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+    <property name="settings.editor.splitter.proportion" value="0.24313726" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -83,7 +96,33 @@
       <recent name="LeetCode._0283_MoveZeroes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PascalsTriangle">
+  <component name="RunManager" selected="Application.NumberOf1Bits_191">
+    <configuration name="LongestSubstringWithoutRepeatingCharacters_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.editor.cn.LongestSubstringWithoutRepeatingCharacters_3" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberOf1Bits_191" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.editor.cn.NumberOf1Bits_191" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PascalsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode._0118_PascalsTriangle.PascalsTriangle" />
       <module name="Algorithm" />
@@ -110,19 +149,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOf1Bits_191" />
+        <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters_3" />
         <item itemvalue="Application.PascalsTriangle" />
         <item itemvalue="Application.ReshapeTheMatrix" />
       </list>
@@ -147,7 +190,11 @@
       <workItem from="1625469922097" duration="1931000" />
       <workItem from="1625551654873" duration="6636000" />
       <workItem from="1625562553302" duration="9521000" />
-      <workItem from="1625969203365" duration="5711000" />
+      <workItem from="1625969203365" duration="6189000" />
+      <workItem from="1625995684975" duration="5491000" />
+      <workItem from="1626059911610" duration="130000" />
+      <workItem from="1626060312161" duration="1715000" />
+      <workItem from="1626070999593" duration="3996000" />
     </task>
     <task id="LOCAL-00001" summary="两个数组的交集和股票最大利润问题。">
       <created>1625914344450</created>
@@ -156,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625914344450</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="重塑矩阵，杨辉三角">
+      <created>1625994394135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625994394135</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +221,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -176,6 +242,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="两个数组的交集和股票最大利润问题。" />
-    <option name="LAST_COMMIT_MESSAGE" value="两个数组的交集和股票最大利润问题。" />
+    <MESSAGE value="重塑矩阵，杨辉三角" />
+    <option name="LAST_COMMIT_MESSAGE" value="重塑矩阵，杨辉三角" />
   </component>
 </project>
