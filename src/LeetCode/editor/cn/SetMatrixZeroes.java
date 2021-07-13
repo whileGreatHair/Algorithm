@@ -39,6 +39,7 @@ package LeetCode.editor.cn;
 // 👍 512 👎 0
 
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
@@ -77,6 +78,7 @@ public class SetMatrixZeroes {
 
     /**
      * 将Solution中的Set集合优化为Boolean数组
+     * 时间复杂度：O(mn),空间复杂度O(m+n)
      */
     class Solution2 {
         public void setZeroes(int[][] matrix) {
@@ -102,12 +104,53 @@ public class SetMatrixZeroes {
     }
 
     /**
-     *
+     * O(1)空间解法
+     * 1.使用两个变量r0和c0，记录「首行」和「首列」是否该被置零
+     * 2.其他非首行首列的位置的置零信息存储到矩阵的首行、首列中
+     * 3.根据置零信息，置零「非首行首列」的
      */
     class Solution3 {
         public void setZeroes(int[][] matrix) {
+            int m = matrix.length;//行
+            int n = matrix[0].length;//列
+            boolean r0 = false, c0 = false;
+            for (int i = 0; i < m; i++) {
+                if (matrix[0][i] == 0) {
+                    r0 = true;
+                }
+                break;
+            }
+            for (int i = 0; i < n; i++) {
+                if (matrix[i][0] == 0) {
+                    c0 = true;
+                }
+            }
+            for (int i = 1; i < m; i++) {
+                for (int j = 1; j < n; j++) {
+                    if (matrix[i][j] == 0) {
+                        matrix[i][0] = matrix[0][j] = 0;
+                    }
+                }
+            }
 
+            for (int j = 1; j < n; j++) {
+                if (matrix[0][j] == 0) {
+                    for (int i = 1; i < m; i++) {
+                        matrix[i][j] = 0;
+                    }
+                }
+            }
+            for (int i = 1; i < m; i++) {
+                if (matrix[i][0] == 0) {
+                    Arrays.fill(matrix[i], 0);
+                }
+            }
+
+            // 3. 根据最开始记录的「首行」和「首列」信息，进行「首行首列」置零
+            if (r0) for (int i = 0; i < m; i++) matrix[i][0] = 0;
+            if (c0) Arrays.fill(matrix[0], 0);
         }
+
     }
 
     public static void main(String[] args) {
