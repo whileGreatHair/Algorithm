@@ -8,9 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46c2c091-f714-410f-996b-97fe81f6b065" name="Default Changelist" comment="73.矩阵置零">
+    <list default="true" id="46c2c091-f714-410f-996b-97fe81f6b065" name="Default Changelist" comment="73.矩阵置零:标记法优化和O(1)解法">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/editor/cn/SetMatrixZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/SetMatrixZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/editor/cn/ValidSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/ValidSudoku.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +205,7 @@
       <workItem from="1626059911610" duration="130000" />
       <workItem from="1626060312161" duration="1715000" />
       <workItem from="1626070999593" duration="12189000" />
-      <workItem from="1626136209431" duration="6158000" />
+      <workItem from="1626136209431" duration="8919000" />
     </task>
     <task id="LOCAL-00001" summary="两个数组的交集和股票最大利润问题。">
       <created>1625914344450</created>
@@ -242,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626142779916</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="73.矩阵置零:标记法优化和O(1)解法">
+      <created>1626158516759</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626158516759</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +284,7 @@
     <MESSAGE value="重塑矩阵，杨辉三角" />
     <MESSAGE value="LeetCode刷题仓库" />
     <MESSAGE value="73.矩阵置零" />
-    <option name="LAST_COMMIT_MESSAGE" value="73.矩阵置零" />
+    <MESSAGE value="73.矩阵置零:标记法优化和O(1)解法" />
+    <option name="LAST_COMMIT_MESSAGE" value="73.矩阵置零:标记法优化和O(1)解法" />
   </component>
 </project>

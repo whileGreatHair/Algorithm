@@ -64,17 +64,44 @@ package LeetCode.editor.cn;
 // 👍 546 👎 0
 
 
-//36 有效的数独
-public class ValidSudoku{
+import java.util.HashMap;
+
+//36.有效的数独
+public class ValidSudoku {
     //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public boolean isValidSudoku(char[][] board) {
-        //TODO
-        return false;
+    class Solution {
+        public boolean isValidSudoku(char[][] board) {
+            //创建三个哈希表数组,并初始化。
+            HashMap<Integer, Integer>[] r = new HashMap[9];//行
+            HashMap<Integer, Integer>[] c = new HashMap[9];//列
+            HashMap<Integer, Integer>[] b = new HashMap[9];//子数独
+            for (int i = 0; i < 9; i++) {
+                r[i] = new HashMap<Integer, Integer>();
+                c[i] = new HashMap<Integer, Integer>();
+                b[i] = new HashMap<Integer, Integer>();
+            }
+            //遍历数独
+            for (int i = 0; i < 9; i++) {
+                for (int j = 0; j < 9; j++) {
+                    char ch = board[i][j];
+                    if (ch != '.') {
+                        int num = (int) ch;//字符转数字
+                        int k = (i / 3) * 3 + j / 3;//子数独的位置
+                        r[i].put(num, r[i].getOrDefault(num, 0) + 1);
+                        c[j].put(num, c[j].getOrDefault(num, 0) + 1);
+                        b[k].put(num, b[k].getOrDefault(num, 0) + 1);
+
+                        if (r[i].get(num) > 1 || c[j].get(num) > 1 || b[k].get(num) > 1) {
+                            return false;
+                        }
+                    }
+                }
+            }
+            return true;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
     public static void main(String[] args) {
     }
-  }
+}
