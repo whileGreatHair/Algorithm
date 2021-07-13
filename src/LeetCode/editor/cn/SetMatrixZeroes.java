@@ -43,31 +43,72 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 
-//73 矩阵置零
+//73.矩阵置零
 public class SetMatrixZeroes {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        //使用标记。我使用Set来标记，可优化为 Boolean 数组
         public void setZeroes(int[][] matrix) {
             int m = matrix.length;//行
             int n = matrix[0].length;//列
             HashSet<Integer> r = new HashSet<>();//存在0的行
             HashSet<Integer> c = new HashSet<>();//存在0的列
             for (int i = 0; i < m; i++) {
-                if (r.contains(i)) {
-                    break;
-                }
                 for (int j = 0; j < n; j++) {
                     if (matrix[i][j] == 0) {
                         r.add(i);
                         c.add(j);
                     }
-                    break;
                 }
-
+            }
+            //置零
+            for (int i = 0; i < m; i++) {
+                if (r.contains(i)) {
+                    matrix[i] = new int[n];
+                }
+                Iterator<Integer> iterator = c.iterator();
+                while (iterator.hasNext()) {
+                    matrix[i][iterator.next()] = 0;
+                }
             }
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
+
+    /**
+     * 将Solution中的Set集合优化为Boolean数组
+     */
+    class Solution2 {
+        public void setZeroes(int[][] matrix) {
+            int m = matrix.length;//行
+            int n = matrix[0].length;//列
+            boolean[] row = new boolean[m];
+            boolean[] col = new boolean[n];
+            for (int i = 0; i < m; i++) {
+                for (int j = 0; j < n; j++) {
+                    if (matrix[i][j] == 0) {
+                        row[i] = col[j] = true;
+                    }
+                }
+            }
+            for (int i = 0; i < m; i++) {
+                for (int j = 0; j < n; j++) {
+                    if (row[i] || col[j]) {
+                        matrix[i][j] = 0;
+                    }
+                }
+            }
+        }
+    }
+
+    /**
+     *
+     */
+    class Solution3 {
+        public void setZeroes(int[][] matrix) {
+
+        }
+    }
 
     public static void main(String[] args) {
         Solution solution = new SetMatrixZeroes().new Solution();

@@ -9,26 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46c2c091-f714-410f-996b-97fe81f6b065" name="Default Changelist" comment="LeetCode刷题仓库">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/HIndexIi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/One32Pattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/SetMatrixZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/ShuZuZhongZhongFuDeShuZiLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/ValidSudoku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/editor/cn/AddTwoNumbers_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/editor/cn/BestTimeToBuyAndSellStock_121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/editor/cn/ContainsDuplicate_217.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/ContainsDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/editor/cn/FibonacciNumber_509.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/FibonacciNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/editor/cn/IntersectionOfTwoArraysIi_350.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/IntersectionOfTwoArraysII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/editor/cn/MaximumSubarray_53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/MaximumSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/editor/cn/MergeSortedArray_88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/MergeSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/editor/cn/NumberOf1Bits_191.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/NumberOf1Bits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/editor/cn/PascalsTriangle_118.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/PascalsTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/editor/cn/ReshapeTheMatrix_566.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/ReshapeTheMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/editor/cn/TwoSum_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/editor/cn/SetMatrixZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/editor/cn/SetMatrixZeroes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +161,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SetMatrixZeroes" />
@@ -212,7 +205,7 @@
       <workItem from="1626059911610" duration="130000" />
       <workItem from="1626060312161" duration="1715000" />
       <workItem from="1626070999593" duration="12189000" />
-      <workItem from="1626136209431" duration="702000" />
+      <workItem from="1626136209431" duration="3528000" />
     </task>
     <task id="LOCAL-00001" summary="两个数组的交集和股票最大利润问题。">
       <created>1625914344450</created>
@@ -235,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626075806840</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="LeetCode刷题仓库">
+      <created>1626139788459</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626139788459</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,16 +270,5 @@
     <MESSAGE value="重塑矩阵，杨辉三角" />
     <MESSAGE value="LeetCode刷题仓库" />
     <option name="LAST_COMMIT_MESSAGE" value="LeetCode刷题仓库" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LeetCode/editor/cn/SetMatrixZeroes.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
