@@ -44,7 +44,8 @@ package LeetCode.editor.cn;
 // Related Topics 递归 记忆化搜索 数学 动态规划
 // 👍 289 👎 0
 
-public class FibonacciNumber_509 {
+//509.斐波那契数
+public class FibonacciNumber {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int fib(int n) {

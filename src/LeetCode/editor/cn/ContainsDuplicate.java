@@ -26,8 +26,8 @@ package LeetCode.editor.cn;
 // 👍 414 👎 0
 
 import java.util.Arrays;
-
-public class ContainsDuplicate_217 {
+//217.存在重复元素
+public class ContainsDuplicate {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean containsDuplicate(int[] nums) {

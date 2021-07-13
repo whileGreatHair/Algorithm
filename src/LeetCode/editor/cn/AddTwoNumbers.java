@@ -42,8 +42,8 @@ package LeetCode.editor.cn;
 // 👍 6442 👎 0
 
 import LeetCode.editor.cn.common.ListNode;
-
-public class AddTwoNumbers_2 {
+//2.两数相加
+public class AddTwoNumbers {
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

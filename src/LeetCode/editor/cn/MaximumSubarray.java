@@ -54,7 +54,7 @@ package LeetCode.editor.cn;
 // Related Topics 数组 分治 动态规划
 // 👍 3398 👎 0
 
-public class MaximumSubarray_53{
+public class MaximumSubarray {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int maxSubArray(int[] nums) {

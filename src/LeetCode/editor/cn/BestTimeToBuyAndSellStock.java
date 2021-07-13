@@ -35,7 +35,8 @@ package LeetCode.editor.cn;
 // Related Topics 数组 动态规划
 // 👍 1709 👎 0
 
-public class BestTimeToBuyAndSellStock_121 {
+//121.买卖股票的最佳时机
+public class BestTimeToBuyAndSellStock {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int maxProfit(int[] prices) {

@@ -7,7 +7,7 @@ package LeetCode.editor.cn;
 //
 // 输入：nums1 = [1,2,2,1], nums2 = [2,2]
 //输出：[2,2]
-//
+//2
 //
 // 示例 2:
 //
@@ -36,7 +36,7 @@ package LeetCode.editor.cn;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class IntersectionOfTwoArraysIi_350 {
+public class IntersectionOfTwoArraysII {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         //哈希表解法

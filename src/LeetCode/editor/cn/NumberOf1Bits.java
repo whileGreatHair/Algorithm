@@ -57,7 +57,7 @@ package LeetCode.editor.cn;
 // Related Topics 位运算
 // 👍 362 👎 0
 
-public class NumberOf1Bits_191 {
+public class NumberOf1Bits {
     //leetcode submit region begin(Prohibit modification and deletion)
     public class Solution {
         // you need to treat n as an unsigned value
