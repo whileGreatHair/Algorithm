@@ -41,7 +41,6 @@ package LeetCode.editor.cn;
 // Related Topics 递归 链表 数学
 // 👍 6442 👎 0
 
-import LeetCode.editor.cn.common.ListNode;
 //2.两数相加
 public class AddTwoNumbers {
     //leetcode submit region begin(Prohibit modification and deletion)
@@ -84,7 +83,25 @@ public class AddTwoNumbers {
             return head;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
+    //leetcode submit region end(Prohibit modification and deletion)
+    class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        public ListNode(int val) {
+            this.val = val;
+        }
+
+        public ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+
+    }
 
     public static void main(String[] args) {
     }
