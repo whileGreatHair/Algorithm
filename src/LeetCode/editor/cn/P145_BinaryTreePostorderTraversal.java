@@ -41,9 +41,11 @@ public class P145_BinaryTreePostorderTraversal {
      * }
      * }
      */
+    /**
+     * 递归法
+     */
     class Solution {
         List<Integer> list = new ArrayList<>();
-
         public List<Integer> postorderTraversal(TreeNode root) {
             if (root == null) {
                 return list;
@@ -55,17 +57,41 @@ public class P145_BinaryTreePostorderTraversal {
         }
     }
 
+
+    //leetcode submit region end(Prohibit modification and deletion)
+
     /**
      * 可以用迭代的方式实现方法一的递归函数，两种方式是等价的，区别在于递归的时候隐式地维护了一个栈，
      * 而我们在迭代的时候需要显式地将这个栈模拟出来，其余的实现与细节都相同。
      */
     class Solution2 {
         public List<Integer> preorderTraversal(TreeNode root) {
-            return null;
+            List<Integer> res = new ArrayList<Integer>();
+            if (root == null) {
+                return res;
+            }
+
+            Deque<TreeNode> stack = new LinkedList<TreeNode>();
+            TreeNode prev = null;
+            while (root != null || !stack.isEmpty()) {
+                while (root != null) {
+                    stack.push(root);
+                    root = root.left;
+                }
+                root = stack.pop();
+                if (root.right == null || root.right == prev) {
+                    res.add(root.val);
+                    prev = root;
+                    root = null;
+                } else {
+                    stack.push(root);
+                    root = root.right;
+                }
+            }
+            return res;
         }
     }
 
-    //leetcode submit region end(Prohibit modification and deletion)
     public class TreeNode {
         int val;
         TreeNode left;
