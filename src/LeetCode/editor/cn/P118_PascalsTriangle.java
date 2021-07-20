@@ -22,7 +22,8 @@ package LeetCode.editor.cn;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PascalsTriangle {
+//118.杨辉三角
+public class P118_PascalsTriangle {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public List<List<Integer>> generate(int numRows) {

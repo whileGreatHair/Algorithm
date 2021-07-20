@@ -59,7 +59,7 @@ package LeetCode.editor.cn;
 import java.util.*;
 
 //20.有效的括号
-public class ValidParentheses {
+public class P20_ValidParentheses {
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**
@@ -124,7 +124,7 @@ public class ValidParentheses {
 
 
     public static void main(String[] args) {
-        Solution2 solution = new ValidParentheses().new Solution2();
+        Solution2 solution = new P20_ValidParentheses().new Solution2();
         solution.isValid("()[]{}");
     }
 }

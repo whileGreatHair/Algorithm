@@ -38,7 +38,7 @@ package LeetCode.editor.cn;
 
 
 //21.合并两个有序链表
-public class MergeTwoSortedLists {
+public class P21_MergeTwoSortedLists {
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**
@@ -113,7 +113,7 @@ public class MergeTwoSortedLists {
     }
 
     public static void main(String[] args) {
-        Solution solution = new MergeTwoSortedLists().new Solution();
+        Solution solution = new P21_MergeTwoSortedLists().new Solution();
         ListNode l1 = new ListNode(1, new ListNode(2, new ListNode(5, null)));
         ListNode l2 = new ListNode(0, new ListNode(3, new ListNode(4, null)));
         solution.mergeTwoLists(l1, l2);

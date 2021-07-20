@@ -33,7 +33,7 @@ package LeetCode.editor.cn;
 
 
 //242.有效的字母异位词
-public class ValidAnagram {
+public class P242_ValidAnagram {
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**
@@ -65,6 +65,6 @@ public class ValidAnagram {
 //leetcode submit region end(Prohibit modification and deletion)
 
     public static void main(String[] args) {
-        Solution solution = new ValidAnagram().new Solution();
+        Solution solution = new P242_ValidAnagram().new Solution();
     }
 }

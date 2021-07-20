@@ -32,10 +32,8 @@ package LeetCode.editor.cn;
 // 👍 608 👎 0
 
 
-import java.util.HashSet;
-
 //83.删除排序链表中的重复元素
-public class RemoveDuplicatesFromSortedList {
+public class P83_RemoveDuplicatesFromSortedList {
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**
@@ -89,7 +87,7 @@ public class RemoveDuplicatesFromSortedList {
     }
 
     public static void main(String[] args) {
-        Solution solution = new RemoveDuplicatesFromSortedList().new Solution();
+        Solution solution = new P83_RemoveDuplicatesFromSortedList().new Solution();
         ListNode head = new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3, new ListNode(5))))));
         ListNode listNode = solution.deleteDuplicates(head);
     }

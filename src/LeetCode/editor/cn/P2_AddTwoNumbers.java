@@ -42,7 +42,7 @@ package LeetCode.editor.cn;
 // 👍 6442 👎 0
 
 //2.两数相加
-public class AddTwoNumbers {
+public class P2_AddTwoNumbers {
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**

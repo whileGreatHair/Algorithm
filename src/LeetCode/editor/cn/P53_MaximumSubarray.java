@@ -1,5 +1,5 @@
 package LeetCode.editor.cn;
-  //给定一个整数数组 nums ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
+//给定一个整数数组 nums ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
 //
 //
 //
@@ -54,25 +54,26 @@ package LeetCode.editor.cn;
 // Related Topics 数组 分治 动态规划
 // 👍 3398 👎 0
 
-public class MaximumSubarray {
+//53.最大子序和
+public class P53_MaximumSubarray {
     //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int maxSubArray(int[] nums) {
-        int ans = nums[0];
-        int sum = 0;
-        for (int num : nums) {
-            if (sum > 0) {
-                sum += num;
-            } else {
-                sum = num;
+    class Solution {
+        public int maxSubArray(int[] nums) {
+            int ans = nums[0];
+            int sum = 0;
+            for (int num : nums) {
+                if (sum > 0) {
+                    sum += num;
+                } else {
+                    sum = num;
+                }
+                ans = Math.max(ans, sum);
             }
-            ans = Math.max(ans, sum);
+            return ans;
         }
-        return ans;
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
     public static void main(String[] args) {
     }
-  }
+}

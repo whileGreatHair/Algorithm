@@ -31,7 +31,7 @@ package LeetCode.editor.cn;
 
 // 👍 136 👎 0
 //275.H指数II
-public class HIndexIi{
+public class P275_HIndexIi {
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int hIndex(int[] citations) {

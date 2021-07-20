@@ -42,10 +42,9 @@ package LeetCode.editor.cn;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.List;
 
 //73.矩阵置零
-public class SetMatrixZeroes {
+public class P73_SetMatrixZeroes {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         //使用标记。我使用Set来标记，可优化为 Boolean 数组
@@ -154,7 +153,7 @@ public class SetMatrixZeroes {
     }
 
     public static void main(String[] args) {
-        Solution solution = new SetMatrixZeroes().new Solution();
+        Solution solution = new P73_SetMatrixZeroes().new Solution();
         int[][] matrix = {{0, 1, 2, 0}, {3, 4, 5, 2}, {1, 3, 1, 5}};
         solution.setZeroes(matrix);
     }

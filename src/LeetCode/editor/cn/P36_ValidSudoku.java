@@ -67,7 +67,7 @@ package LeetCode.editor.cn;
 import java.util.HashMap;
 
 //36.有效的数独
-public class ValidSudoku {
+public class P36_ValidSudoku {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean isValidSudoku(char[][] board) {

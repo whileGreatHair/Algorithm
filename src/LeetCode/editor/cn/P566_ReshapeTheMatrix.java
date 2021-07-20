@@ -45,7 +45,8 @@ package LeetCode.editor.cn;
 // Related Topics 数组 矩阵 模拟
 // 👍 217 👎 0
 
-public class ReshapeTheMatrix {
+//566.重塑矩阵
+public class P566_ReshapeTheMatrix {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[][] matrixReshape(int[][] mat, int r, int c) {

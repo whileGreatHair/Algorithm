@@ -36,7 +36,8 @@ package LeetCode.editor.cn;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class IntersectionOfTwoArraysII {
+//350.两个数组的交集II
+public class P350_IntersectionOfTwoArraysII {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         //哈希表解法

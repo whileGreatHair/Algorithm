@@ -27,7 +27,7 @@ package LeetCode.editor.cn;
 
 import java.util.Arrays;
 //217.存在重复元素
-public class ContainsDuplicate {
+public class P217_ContainsDuplicate {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean containsDuplicate(int[] nums) {

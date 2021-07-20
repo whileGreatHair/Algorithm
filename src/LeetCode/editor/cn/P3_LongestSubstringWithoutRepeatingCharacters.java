@@ -46,8 +46,8 @@ package LeetCode.editor.cn;
 // Related Topics 哈希表 字符串 滑动窗口
 // 👍 5727 👎 0
 
-//3 无重复字符的最长子串
-public class LongestSubstringWithoutRepeatingCharacters {
+//3.无重复字符的最长子串
+public class P3_LongestSubstringWithoutRepeatingCharacters {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int lengthOfLongestSubstring(String s) {

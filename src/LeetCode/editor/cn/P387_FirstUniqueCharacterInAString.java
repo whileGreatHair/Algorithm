@@ -20,12 +20,10 @@ package LeetCode.editor.cn;
 // 👍 414 👎 0
 
 
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 
 //387.字符串中的第一个唯一字符
-public class FirstUniqueCharacterInAString {
+public class P387_FirstUniqueCharacterInAString {
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**
@@ -76,7 +74,7 @@ public class FirstUniqueCharacterInAString {
 
 
     public static void main(String[] args) {
-        Solution solution = new FirstUniqueCharacterInAString().new Solution();
+        Solution solution = new P387_FirstUniqueCharacterInAString().new Solution();
         int leetcode = solution.firstUniqChar("loveleetcode");
     }
 }

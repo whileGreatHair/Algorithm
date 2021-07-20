@@ -37,7 +37,7 @@ package LeetCode.editor.cn;
 
 
 //203.移除链表元素
-public class RemoveLinkedListElements {
+public class P203_RemoveLinkedListElements {
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**
@@ -102,6 +102,6 @@ public class RemoveLinkedListElements {
     }
 
     public static void main(String[] args) {
-        Solution solution = new RemoveLinkedListElements().new Solution();
+        Solution solution = new P203_RemoveLinkedListElements().new Solution();
     }
 }

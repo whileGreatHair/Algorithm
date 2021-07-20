@@ -41,7 +41,7 @@ package LeetCode.editor.cn;
 import java.util.HashMap;
 
 //383.赎金信
-public class RansomNote {
+public class P383_RansomNote {
     //leetcode submit region begin(Prohibit modification and deletion)
     /**
      * 本质上就是magazine里字母要包含ransomNote里的字母
@@ -114,7 +114,7 @@ public class RansomNote {
         }
     }
     public static void main(String[] args) {
-        Solution solution = new RansomNote().new Solution();
+        Solution solution = new P383_RansomNote().new Solution();
         boolean b = solution.canConstruct("aa", "ab");
     }
 }

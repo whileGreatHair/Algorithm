@@ -42,7 +42,8 @@ package LeetCode.editor.cn;
 // Related Topics 栈 数组 二分查找 有序集合 单调栈
 // 👍 526 👎 0
 
-public class One32Pattern {
+//456.132 模式
+public class P456_One32Pattern {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean find132pattern(int[] nums) {

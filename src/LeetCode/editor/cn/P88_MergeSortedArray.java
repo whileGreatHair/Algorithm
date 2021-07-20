@@ -36,7 +36,8 @@ package LeetCode.editor.cn;
 
 import java.util.Arrays;
 
-public class MergeSortedArray {
+//88.合并两个有序数组
+public class P88_MergeSortedArray {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public void merge(int[] nums1, int m, int[] nums2, int n) {

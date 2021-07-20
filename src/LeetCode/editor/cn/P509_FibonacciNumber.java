@@ -45,7 +45,7 @@ package LeetCode.editor.cn;
 // 👍 289 👎 0
 
 //509.斐波那契数
-public class FibonacciNumber {
+public class P509_FibonacciNumber {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int fib(int n) {

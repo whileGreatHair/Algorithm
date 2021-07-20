@@ -58,7 +58,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 //141.环形链表
-public class LinkedListCycle {
+public class P141_LinkedListCycle {
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**
@@ -121,7 +121,7 @@ public class LinkedListCycle {
     }
 
     public static void main(String[] args) {
-        Solution solution = new LinkedListCycle().new Solution();
+        Solution solution = new P141_LinkedListCycle().new Solution();
         ListNode head = new ListNode(3);
         ListNode node1 = new ListNode(2);
         head.next = node1;

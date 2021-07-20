@@ -66,10 +66,9 @@ package LeetCode.editor.cn;
 
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Stack;
 
 //232.用栈实现队列
-public class ImplementQueueUsingStacks {
+public class P232_ImplementQueueUsingStacks {
 
     //leetcode submit region begin(Prohibit modification and deletion)
 
@@ -166,7 +165,7 @@ public class ImplementQueueUsingStacks {
     }
 
     public static void main(String[] args) {
-        MyQueue obj = new ImplementQueueUsingStacks().new MyQueue();
+        MyQueue obj = new P232_ImplementQueueUsingStacks().new MyQueue();
         obj.push(1);
         obj.push(2);
         obj.push(3);

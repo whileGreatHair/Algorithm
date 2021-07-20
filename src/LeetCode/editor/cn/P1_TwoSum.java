@@ -44,7 +44,8 @@ package LeetCode.editor.cn;
 // Related Topics 数组 哈希表
 // 👍 11547 👎 0
 
-public class TwoSum {
+//1.两数之和
+public class P1_TwoSum {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[] twoSum(int[] nums, int target) {

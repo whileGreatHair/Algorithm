@@ -44,7 +44,7 @@ package LeetCode.editor.cn;
 
 
 //206.反转链表
-public class ReverseLinkedList {
+public class P206_ReverseLinkedList {
     //leetcode submit region begin(Prohibit modification and deletion)
 
     /**
@@ -110,6 +110,6 @@ public class ReverseLinkedList {
     }
 
     public static void main(String[] args) {
-        Solution solution = new ReverseLinkedList().new Solution();
+        Solution solution = new P206_ReverseLinkedList().new Solution();
     }
 }
