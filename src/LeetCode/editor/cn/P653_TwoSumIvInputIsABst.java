@@ -52,43 +52,122 @@ package LeetCode.editor.cn;
 // 👍 256 👎 0
 
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 //653.两数之和 IV - 输入 BST
 public class P653_TwoSumIvInputIsABst {
-        //leetcode submit region begin(Prohibit modification and deletion)
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-class Solution {
-    public boolean findTarget(TreeNode root, int k) {
-        return false;
+    //leetcode submit region begin(Prohibit modification and deletion)
+
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     * int val;
+     * TreeNode left;
+     * TreeNode right;
+     * TreeNode() {}
+     * TreeNode(int val) { this.val = val; }
+     * TreeNode(int val, TreeNode left, TreeNode right) {
+     * this.val = val;
+     * this.left = left;
+     * this.right = right;
+     * }
+     * }
+     */
+    //暴力遍历解法
+    class Solution {
+        public boolean findTarget(TreeNode root, int k) {
+            inorder(root);
+            if (res.size() < 2) {
+                return false;
+            }
+            for (int i = 0; i < res.size(); i++) {
+                for (int j = i + 1; j < res.size(); j++) {
+                    if (res.get(i) + res.get(j) == k) return true;
+                }
+            }
+            return false;
+        }
+
+        List<Integer> res = new ArrayList<>();
+
+        private void inorder(TreeNode root) {
+            if (root == null) return;
+            inorder(root.left);
+            res.add(root.val);
+            inorder(root.right);
+            return;
+        }
     }
-}
-//leetcode submit region end(Prohibit modification and deletion)
-public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode() {}
-    TreeNode(int val) { this.val = val; }
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
+
+    //leetcode submit region end(Prohibit modification and deletion)
+
+    //优化遍历法（官方）
+    class Solution2 {
+        public boolean findTarget(TreeNode root, int k) {
+            Set<Integer> set = new HashSet();
+            return find(root, k, set);
+        }
+
+        public boolean find(TreeNode root, int k, Set<Integer> set) {
+            if (root == null)
+                return false;
+            if (set.contains(k - root.val))
+                return true;
+            set.add(root.val);
+            return find(root.left, k, set) || find(root.right, k, set);
+        }
     }
-}
+
+    //遍历加双指针法（BST）
+    class Solution3 {
+        public boolean findTarget(TreeNode root, int k) {
+            List<Integer> list = new ArrayList();
+            inorder(root, list);
+            int l = 0, r = list.size() - 1;
+            while (l < r) {
+                int sum = list.get(l) + list.get(r);
+                if (sum == k)
+                    return true;
+                if (sum < k)
+                    l++;
+                else
+                    r--;
+            }
+            return false;
+        }
+
+        public void inorder(TreeNode root, List<Integer> list) {
+            if (root == null)
+                return;
+            inorder(root.left, list);
+            list.add(root.val);
+            inorder(root.right, list);
+        }
+    }
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
     public static void main(String[] args) {
-           Solution solution = new P653_TwoSumIvInputIsABst().new Solution();
-      }
+        Solution solution = new P653_TwoSumIvInputIsABst().new Solution();
+    }
 }

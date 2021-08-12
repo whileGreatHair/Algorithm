@@ -44,14 +44,24 @@ public class P235_LowestCommonAncestorOfABinarySearchTree {
      * public class TreeNode {
      * int val;
      * TreeNode left;
-     * TreeNode ri98ght;
+     * TreeNode right;
      * TreeNode(int x) { val = x; }
      * }
      */
-
+    //遍历&比较
     class Solution {
-        public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-            return null;
+        public TreeNode lowestCommonres(TreeNode root, TreeNode p, TreeNode q) {
+            TreeNode res = root;
+            while (true) {
+                if (p.val < res.val && q.val < res.val) {
+                    res = res.left;
+                } else if (p.val > res.val && q.val > res.val) {
+                    res = res.right;
+                } else {
+                    break;
+                }
+            }
+            return res;
         }
     }
 
@@ -59,7 +69,7 @@ public class P235_LowestCommonAncestorOfABinarySearchTree {
     public class TreeNode {
         int val;
         TreeNode left;
-        TreeNode ri98ght;
+        TreeNode right;
 
         TreeNode(int x) {
             val = x;
