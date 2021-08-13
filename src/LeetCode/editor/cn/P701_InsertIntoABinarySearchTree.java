@@ -64,13 +64,44 @@ public class P701_InsertIntoABinarySearchTree {
      * }
      * }
      */
+    //递归
     class Solution {
         public TreeNode insertIntoBST(TreeNode root, int val) {
-            return null;
+            if (root == null) {
+                return new TreeNode(val);
+            }
+
+            if (val < root.val) {
+                root.left = insertIntoBST(root.left, val);
+            } else {
+                root.right = insertIntoBST(root.right, val);
+            }
+            return root;
         }
     }
 
     //leetcode submit region end(Prohibit modification and deletion)
+    //迭代
+    class Solution2 {
+        public TreeNode insertIntoBST(TreeNode root, int val) {
+            if (root == null)
+                return new TreeNode(val);
+
+            TreeNode node = new TreeNode(val);
+            TreeNode parent = root, child = root;
+            while (child != null) {
+                parent = child;
+                child = parent.val > val ? child.left : child.right;
+            }
+
+            if (val < parent.val)
+                parent.left = node;
+            else
+                parent.right = node;
+
+            return root;
+        }
+    }
     public class TreeNode {
         int val;
         TreeNode left;
