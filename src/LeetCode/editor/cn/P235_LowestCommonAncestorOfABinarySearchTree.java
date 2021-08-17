@@ -50,7 +50,7 @@ public class P235_LowestCommonAncestorOfABinarySearchTree {
      */
     //遍历&比较
     class Solution {
-        public TreeNode lowestCommonres(TreeNode root, TreeNode p, TreeNode q) {
+        public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
             TreeNode res = root;
             while (true) {
                 if (p.val < res.val && q.val < res.val) {
