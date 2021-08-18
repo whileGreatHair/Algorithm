@@ -43,11 +43,14 @@ package LeetCode.editor.cn;
 // 👍 526 👎 0
 
 import java.util.ArrayDeque;
+import java.util.Arrays;
 import java.util.Deque;
+import java.util.Stack;
 
 //456.132 模式
 public class P456_One32Pattern {
     //leetcode submit region begin(Prohibit modification and deletion)
+    //单调栈枚举1
     class Solution {
         public boolean find132pattern(int[] nums) {
             int n = nums.length;
@@ -64,8 +67,52 @@ public class P456_One32Pattern {
             return false;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+
+    //leetcode submit region end(Prohibit modification and deletion)
+    //暴力枚举3
+    class Solution2 {
+        public boolean find132pattern(int[] nums) {
+            int n = nums.length;
+            int numi = nums[0];
+            for (int j = 1; j < n; j++) {
+                for (int k = j + 1; k < n - 1; k++) {
+                    if (numi < nums[j] && nums[k] < nums[j]) {
+                        return true;
+                    }
+                    numi = Math.min(numi, nums[j]);
+                }
+            }
+            return false;
+        }
+    }
+
+    //单调栈枚举3
+    class Solution3 {
+        public boolean find132pattern(int[] nums) {
+            int len = nums.length;
+            int[] leftMin = new int[len];
+            Arrays.fill(leftMin, Integer.MAX_VALUE);
+            for (int i = 1; i < len; i++) {
+                leftMin[i] = Math.min(leftMin[i - 1], nums[i - 1]);
+            }
+            Stack<Integer> stack = new Stack<>();
+            for (int j = len - 1; j > -1; j--) {
+                int numsK = Integer.MIN_VALUE;
+                while (!stack.isEmpty() && stack.peek() < nums[j]) {
+                    numsK = stack.pop();
+                }
+                if (leftMin[j] < numsK) {
+                    return true;
+                }
+                stack.push(nums[j]);
+            }
+            return false;
+        }
+    }
 
     public static void main(String[] args) {
+        P456_One32Pattern.Solution solution = new P456_One32Pattern().new Solution();
+        int[] nums = {3, 1, 4, 6, 7, 1, 23, 2};
+        solution.find132pattern(nums);
     }
 }
