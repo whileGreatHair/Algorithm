@@ -54,5 +54,7 @@ public class P15_ThreeSum {
 
     public static void main(String[] args) {
         Solution solution = new P15_ThreeSum().new Solution();
+        int[] nums = {1, 2, 4, 0, -1, 3, -8,-8, 5, -7, -6, 0, 8};
+        solution.threeSum(nums);
     }
 }
